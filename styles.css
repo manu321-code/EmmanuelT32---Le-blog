@@ -1,0 +1,108 @@
+        @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+
+        html {
+            background-color: #a0acac;
+            background-image: -webkit-linear-gradient(270deg, rgb(rgb(117, 143, 128)) 0%, rgb(117, 143, 128) 100%);
+            background-image: linear-gradient(270deg, rgb(rgb(117, 143, 128)) 0%, rgb(117, 143, 128) 100%);
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        body {
+            margin: 0 auto;
+            padding: 2em 2em 4em;
+            max-width: 1050px;
+            line-height: 1.5em;
+            background-color: #42e642;
+            box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #209116;
+            border-radius: .9rem;
+        }
+
+        li {
+            float: left;
+            border: 1px solid #bbb;
+            margin: 2px;
+        }
+
+        li a,
+        .dropbtn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 12px 16px;
+            text-decoration: none;
+            border-radius: .9rem;
+        }
+
+        li a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: rgb(4, 75, 4);
+            border-radius: .9rem;
+        }
+
+        li.dropdown {
+            display: inline-block;
+            border-radius: .9rem;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            border-radius: .9rem;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+            border-radius: .9rem;
+        }
+
+        .dropdown-content a:hover {
+            background-color: rgb(106, 218, 62);
+            border-radius: .9rem;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+            border-radius: .9rem;
+        }
+
+        .button {
+            background-color: #4CAF50; /* Green */
+            border-radius: 3rem;
+            border: none;
+            color: white;
+            padding: 13px 30px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 15px;
+            margin: 4px 2px;
+            cursor: pointer;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+          }
+          
+          .button2:hover {
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+        
+        .logo-channel-Manu {
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+        
